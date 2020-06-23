@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Uğur Özyılmazel</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>gutterSettings</key>
+	<dict>
+		<key>background</key>
+		<string>#E0A9FF</string>
+		<key>divider</key>
+		<string>#586e75</string>
+		<key>foreground</key>
+		<string>#000000</string>
+		<key>selectionBackground</key>
+		<string>#000000</string>
+		<key>selectionForeground</key>
+		<string>#ffffff</string>
+	</dict>
+	<key>name</key>
+	<string>CBM Basic 3.5 Theme</string>
+	<key>semanticClass</key>
+	<string>theme.c16.cbm35</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff</string>
+				<key>foreground</key>
+				<string>#000000</string>
+				<key>invisibles</key>
+				<string>#dddddd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Line numbers</string>
+			<key>scope</key>
+			<string>keyword.cbm35.line-number</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#555555</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Basic Keywords (Commands)</string>
+			<key>scope</key>
+			<string>keyword.cbm35.command</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6F15DE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Numbers</string>
+			<key>scope</key>
+			<string>keyword.cbm35.number</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AC453F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>keyword.cbm35.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8870FF</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>FDA2C2D9-E5EA-480E-B4B7-846A25DEC7DD</string>
+</dict>
+</plist>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>bas</string>
+		<string>cmb35bas</string>
+	</array>
+	<key>name</key>
+	<string>CBM Basic 3.5</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#line_numbers</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#basic_commands_with_suffix</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#basic_commands</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#numbers</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#variables</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>basic_commands</key>
+		<dict>
+			<key>match</key>
+			<string>\b(abs|asc|atn|auto|backup|box|char|circle|close|clr|cmd|collect|color|cont|copy|cos|data|dec|def|delete|dim|directory|dload|do|draw|dsave|end|exp|fn|for|fre|get|getkey|gosub|goto|graphic|gshape|header|help|if|input|instr|int|joy|key|len|let|list|load|locate|log|monitor|new|next|on|open|paint|peek|poke|pos|print|print using|pudef|rclr|rdot|read|rem|rename|renumber|restore|resume|return|rgr|rlum|rnd|run|save|scale|scnclr|scratch|sgn|sin|sound|spc|sqr|sshape|step|stop|sys|tab|tan|to|trap|troff|tron|usr|using|val|verify|vol|wait)\b</string>
+			<key>name</key>
+			<string>keyword.cbm35.command</string>
+		</dict>
+		<key>basic_commands_with_suffix</key>
+		<dict>
+			<key>match</key>
+			<string>\b(chr|err|get|hex|input|left|mid|print|right|str)\b(\$|#)</string>
+			<key>name</key>
+			<string>keyword.cbm35.command</string>
+		</dict>
+		<key>line_numbers</key>
+		<dict>
+			<key>match</key>
+			<string>^[0-9]+ </string>
+			<key>name</key>
+			<string>keyword.cbm35.line-number</string>
+		</dict>
+		<key>numbers</key>
+		<dict>
+			<key>match</key>
+			<string>[0-9]+</string>
+			<key>name</key>
+			<string>keyword.cbm35.number</string>
+		</dict>
+		<key>variables</key>
+		<dict>
+			<key>match</key>
+			<string>\w+ *?=</string>
+			<key>name</key>
+			<string>keyword.cbm35.variable</string>
+		</dict>
+	</dict>
+	<key>scopeName</key>
+	<string>source.cbm35.bas</string>
+	<key>uuid</key>
+	<string>9885BFA0-B12F-417C-A162-8C8FA3618DFA</string>
+</dict>
+</plist>

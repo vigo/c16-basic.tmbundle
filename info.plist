@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>hthebmlvyznmry@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Uğur Özyılmazel</string>
+	<key>description</key>
+	<string>Bundle for Commodore 16 and Plus 4 Basic</string>
+	<key>name</key>
+	<string>C16 Basic</string>
+	<key>uuid</key>
+	<string>811EFEE1-AD67-4EE5-89ED-EE11A18CA766</string>
+</dict>
+</plist>
