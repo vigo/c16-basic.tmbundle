@@ -35,7 +35,7 @@ $ touch ~/.tm_properties
 
 Then add or append lines below:
 
-```toml
+```ini
 [ source.cbm35.bas ]
 theme = FDA2C2D9-E5EA-480E-B4B7-846A25DEC7DD
 fontName = "C64ProMono"
