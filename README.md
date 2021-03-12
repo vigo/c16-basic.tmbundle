@@ -14,13 +14,34 @@ or Plus4 basic on you mac!
 
 # Requirements
 
-@wip
+**C64 Pro Mono** font by **STYLE**
+
+Download [zip][font] and extract `C64_Pro_Mono-STYLE.ttf` to `~/Library/Fonts/`
 
 ---
 
 # Installation
 
-@wip
+```bash
+$ cd ~/Library/Application\ Support/TextMate/Bundles/
+$ git clone https://github.com/vigo/c16-basic.tmbundle.git
+```
+
+If you don’t have `~/.tm_properties` create via;
+
+```bash
+$ touch ~/.tm_properties
+```
+
+Then add or append lines below:
+
+```toml
+[ source.cbm35.bas ]
+theme = FDA2C2D9-E5EA-480E-B4B7-846A25DEC7DD
+fontName = "C64ProMono"
+```
+
+Now restart TextMate!
 
 ---
 
@@ -47,3 +68,4 @@ PR’s are very welcome!
 This project is licensed under MIT.
 
 [vigo]:  https://ugur.ozyilmazel.com "Official Homepage"
+[font]: https://style64.org/file/C64_TrueType_v1.2.1-STYLE.zip "C64 Pro Mono font"
