@@ -57,7 +57,7 @@ PR’s are very welcome!
 
 ---
 
-## Contributer(s)
+## Contributor(s)
 
 * [Uğur "vigo" Özyılmazel][vigo] - Creator, maintainer
 
